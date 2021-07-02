@@ -21,7 +21,7 @@ public class BaseDatos extends SQLiteOpenHelper {
     private static final String pregunta3 = "INSERT INTO pregunta (texto_pre) " +
             "VALUES ('Una variable tipo String es un contenedor que puede almacenar un valor entero?');";
     private static final String pregunta4 = "INSERT INTO pregunta (texto_pre) " +
-            "VALUES ('Las variables de tipo vector se utiliza para almacenar un arreglo o conjutno de datdos?');";
+            "VALUES ('Las variables de tipo vector se utiliza para almacenar un arreglo o conjunto de datos?');";
     private static final String pregunta5 = "INSERT INTO pregunta (texto_pre) " +
             "VALUES ('Se puede realizar una suma si uno de sus elementos es de tipo string y el otro de tipo integer? ');";
     private static final String pregunta6 = "INSERT INTO pregunta (texto_pre) " +
