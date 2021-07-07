@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTrivia">
-        <activity android:name=".ResultadosActivity"></activity>
+        <activity android:name=".Bienvenida">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultadosActivity" />
         <activity android:name=".Pregunta10Activity" />
         <activity android:name=".Pregunta9Activity" />
         <activity android:name=".Pregunta8Activity" />
@@ -21,11 +28,7 @@
         <activity android:name=".Pregunta2Activity" />
         <activity android:name=".Pregunta1Activity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
